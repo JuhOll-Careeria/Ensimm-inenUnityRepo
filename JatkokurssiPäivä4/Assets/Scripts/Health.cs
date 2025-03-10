@@ -35,6 +35,9 @@ public class Health : MonoBehaviour
             audioSource.PlayOneShot(takeDamageSE);
         }
 
+        // UUSI KOMMENTTI GITTIÄ VARTEN
+
+
         // Jos currentHealth on alle 0, objekti tuhoutuu/kuolee
         if (currentHealth <= 0)
         {
